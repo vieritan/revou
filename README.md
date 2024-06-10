@@ -33,3 +33,4 @@
     ## 3. Fitur Hiburan yang Terbatas
     * Sebagai mobil sport, FT-86 tidak terlalu fokus pada fitur hiburan yang canggih.
     * Sistem infotainment dan fitur-fitur lainnya tergolong sederhana.
+    * ini test

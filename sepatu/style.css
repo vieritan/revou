@@ -1,0 +1,421 @@
+* {
+  font-family: "OpenSans-Reguler";
+  src: url('./static/OpenSans-Reguler.ttf');
+}
+  
+  /* Menu navigasi Home dkk */
+  .topnav {
+    background-color: #2196F3;
+    overflow: hidden;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+  main{
+    margin-top: 58px;
+  }
+  /* .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    color: white;
+  }
+
+  /* Kotak yang di dalamnya sepatu */
+  .grid-container {
+    background: rgb(11, 246, 247);
+    background: linear-gradient(90deg, rgba(11, 246, 247, 1) 23%, rgba(0, 159, 255, 1) 63%);
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    column-gap: 30px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .grid-item img{
+    width: 100%;
+  }
+
+  /* jenis font untuk semua body */
+  /* body {
+    font-family: 'Arial', sans-serif;
+  } */
+
+  /* about */
+  .about {
+    background: rgb(11,246,247);
+    background: linear-gradient(90deg, rgba(11,246,247,1) 23%, rgba(0,159,255,1) 63%);
+    color: black;
+    padding: 20px 50;
+    font-size: 25px;
+  }
+
+  /* h1 */
+  h1{
+    font-weight: bold;
+    font-size: 5em;
+  }
+
+/* h2 */
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.h1-animasi{
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  animation-duration: 3s;
+  animation-name: top;
+  align-content: center;
+}
+
+
+@keyframes top {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* button next dan preview */
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 15px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  /* search */
+  .search {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* artikel */
+  .artikel {
+    background-color: #2196F3;
+    /* font-family: 'Arial', sans-serif; */
+    text-align: justify;
+    color: #000000;
+  }
+
+  /* contact us */
+  .contact_us {
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: auto;
+      margin-top: auto;
+    }
+  }
+
+  /* submit */
+  input[type=submit] {
+    background-color: #2196F3;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #86c4f7;
+  }
+
+  /* tombol_kembali */
+  .button{
+    background-color: #2196F3;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* menu responsif css */
+  /* Global Styles */
+* { /* h1 global */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+} */
+
+/* Header and Navigation */
+/* header {
+  background-color: #3360dd;
+  color: #fff;
+  padding: 20px;
+} */
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  .grid-container{
+    background: rgb(11,246,247);
+    background: linear-gradient(90deg, rgba(11,246,247,1) 23%, rgba(0,159,255,1) 63%);
+    width: 80%; 
+    margin: 0; 
+    border: none;
+    /* display: flex; */
+  }
+}
+
+/* Animations */
+.nav-active {
+  transform: translateX(100%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* copy right */
+.home-footer{
+  text-align: center;
+}
+
+/* ukuran sepatu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* judul di form beli */
+.pembelian {
+  background-color: #2196F3;
+  text-align: center;
+}
+
+/* form isi beli */
+main-formbeli {
+  text-align: center;
+}
+
+
+  /* tips */
+  .tips {
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    background: linear-gradient(90deg, rgba(11,246,247,1) 23%, rgba(0,159,255,1) 63%);
+    padding: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 10px;
+    margin-top: 10px;
+    transition: 3s linear;
+  }
+
+  .container-tips {
+    display: flex;
+  }
+  
+  .container-tips > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    margin: 30px;
+    font-size: 25px;
+  }
+
+  .item1 {
+    width: 250px;
+    justify-content: end;
+  }
+
+  /* background */
+  .parallax {
+    /* The image used */
+    background-image: url(./gambar/bg_sepatu1.jpg) ;
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center 100px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  .parallax2{
+    background: rgb(11,246,247);
+    background: linear-gradient(90deg, rgba(11,246,247,1) 23%, rgba(0,159,255,1) 63%);
+    font-size: 50px;
+  }
+
+  /* transition img */
+  .transition-container {
+    width: 30%;
+    overflow: hidden;
+  }
+
+  .transition-container > img {
+    height: 100%;
+    width: 100%;
+    transition: transform .2s;
+    object-fit: cover;
+  }
+
+  .transition-container > img:hover {
+    transform: scale(1.5);
+  }
